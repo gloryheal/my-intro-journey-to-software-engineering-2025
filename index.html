@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Personal Blog</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link" href="./about.html">About Me</a>
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+            <a class="nav-link" href="./contact.html">Contact Me</a>
+            <a class="nav-link" href="./blog.html">Blog</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Images/Travel adevnture.jpg" class="d-block w-100" alt="Travel Adventure">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to My World!</h5>
+            <p>Sharing my adventures, stories, and little joys of life.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/lifes colours.jpg" class="d-block w-100" alt="Photography Fun">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Capturing Life’s Colors</h5>
+            <p>Moments, memories, and creativity through my lens.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/image-2.jpg" class="d-block w-100" alt="My Hobbies">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Little Adventures</h5>
+            <p>I explore the things I love!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- Cards -->
+    <div class="container my-4">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Images/travel adventure (2).jpg" class="card-img-top" alt="Latest Blog Post">
+            <div class="card-body">
+              <h5 class="card-title">My Latest Adventure</h5>
+              <p class="card-text">I recently explored the beautiful land of Jinja. Here’s what I discovered along the way!</p>
+              <a href="./blog.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Images/picnic.jpg" class="card-img-top" alt="Picnic">
+            <div class="card-body">
+              <h5 class="card-title">A picnic with friends</h5>
+              <p class="card-text">Nothing beats a sunny afternoon with friends, good food, and lots of laughter.</p>
+              <a href="./blog.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./Images/garden work.jpg" class="card-img-top" alt="Garden work>
+            <div class="card-body">
+              <h5 class="card-title">My day in the garden</h5>
+              <p class="card-text">There is something magical about spending a morning in the garden.</p>
+              <a href="./blog.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+      <div class="container text-center">
+        <p class="mb-0" style="color: black;">&copy; 2025 My Personal Blog</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

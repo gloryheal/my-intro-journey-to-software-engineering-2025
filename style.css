@@ -1,0 +1,132 @@
+/*INDEX FILE STYLING */
+body {
+  background-color: beige           
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar*/
+.navbar {
+  background: linear-gradient(90deg, #e2d4d2, #d5b378); 
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.navbar-nav .nav-link:hover {
+  color: green;       }
+
+/* Carousel */
+.carousel img {
+  height: 400px;
+  object-fit: cover;               
+  border-bottom: 6px solid #ff8a80;
+
+}
+.carousel-inner img {
+    width: 100%;
+    height: 500px; /* adjust height as needed */
+    object-fit: cover
+}
+
+/*  Cards Section */
+.container .card {
+  border: 3px solid #ffd180;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding:20px, 10px
+}
+.container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.card-title {
+  color: #ff7043;                
+  font-weight: bold;
+  text-align: center;
+}
+.card-text {
+  color: #444;
+  text-align: center;
+}
+.card .btn-primary {
+  background-color: #4dd0e1;      
+  border: none;
+}
+.card .btn-primary:hover {
+  background-color: #26c6da;
+}
+
+/* Footer  */
+footer {
+  background: #ff8a80;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+footer p {
+  margin: 0;
+}
+
+/* GALLERY STYLING */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  line-height: 1.6;
+}
+
+/* Make carousel images nicely cropped */
+.carousel .carousel-item img {
+  height: 60vh;
+  object-fit: cover;
+}
+
+/* Gallery thumbnails */
+.gallery-img {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Footer style */
+footer {
+  border-top: 1px solid #e9ecef;
+}
+
+/* small responsive utility */
+@media (max-width: 576px) {
+  .carousel .carousel-item img { height: 40vh; }
+}
+/*CONTACT FORM STYLING */
+.contact-form {
+  max-width: 500px;          
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd;    
+}
+
+/* Make labels a bit bolder */
+.contact-form .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Add spacing between form and page edges */
+body {
+  background: #eef2f3;       
+}
+
+/* Style the submit button a little more */
+.contact-form .btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #0056b3; 
+}
